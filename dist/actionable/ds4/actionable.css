@@ -30,6 +30,20 @@ button.icon-btn:active > svg,
 a.icon-link:active > svg {
   color: #555;
 }
+.icon-btn--actionable {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.icon-btn--actionable > svg.icon {
+  left: 0 !important;
+  margin: 0;
+  right: 0 !important;
+}
 button[disabled].icon-btn,
 button[aria-disabled="true"].icon-btn,
 a:not([href]).icon-link,
